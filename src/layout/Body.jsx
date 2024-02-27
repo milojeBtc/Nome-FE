@@ -29,7 +29,7 @@ export default function Body() {
     const onCloseModal = () => setOpen(false);
 
     const [walletOpen, setWalletOpen] = useState(false);
-    const [verified, setVerified] = useState(true);
+    const [verified, setVerified] = useState(false);
     const [mint, setMint] = useState(false);
 
     if (userSession.isUserSignedIn()) {
@@ -158,7 +158,7 @@ export default function Body() {
     };
 
     // Carousel
-    const [popup, setPopup] = useState(true);
+    const [popup, setPopup] = useState(false);
     const [activeIndex, setActiveIndex] = useState(0);
 
     const setOpenPopup = (index) => {
@@ -365,7 +365,7 @@ export default function Body() {
     );
 
     return (
-        <div className='w-full'>
+        <div className='w-full min-h-screen'>
             <div className='mx-auto'>
                 <img src="/assets/logo-white.png" alt="NoMe logo" className="w-3/4 max-w-[18rem] sm:w-full mx-auto mt-8 min-[600px]:hidden" />
             </div>
@@ -459,6 +459,9 @@ export default function Body() {
                                                 BUY with $BTC
                                             </div>
                                         </>}
+                                </div>
+                                <div className='bg-white text-black text-center text-[24px] cursor-pointer' onClick={() => setMint(flag => !flag)}>
+                                    Switch the mint status
                                 </div>
                             </div>
                         </div>
