@@ -1,6 +1,6 @@
-# 📦 Nome Ordinals
+# 📦 Nome Frontend
 
-<div align="center"><img src="https://i.ibb.co/12rNMQy/Nome.png" alt="Nome" border="0" /></div>
+<div align="center"><img src="https://i.ibb.co/w6BcbCn/Nome-fe.png" alt="Nome-fe" border="0" /></div>
 
 ![Blockchain](https://img.shields.io/badge/Blockchain-121D33?style=flat-square&logo=blockchain.com&logoColor=white)
 ![Bitcoin](https://img.shields.io/badge/Bitcoin-F7931A?style=flat-square&logo=bitcoin&logoColor=white)
